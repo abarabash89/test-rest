@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 APP_NAME=$(bin/get-app-name.sh)
 bin/stop.sh
+DIR=$(pwd)
 CMD="docker run
-    -e NODE_ENV=development
     -d
     -p 4000:80
     $APP_NAME"
