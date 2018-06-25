@@ -1,0 +1,22 @@
+{
+  "name": "test-rest",
+  "version": "0.0.0",
+  "description": "test RESET server",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abarabash89/test-rest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abarabash89/test-rest/issues"
+  },
+  "homepage": "https://github.com/abarabash89/test-rest#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
